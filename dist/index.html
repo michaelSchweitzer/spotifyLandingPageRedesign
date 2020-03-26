@@ -3,35 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style1.min.css">
-    <title>Spotify Landing Page Redsign</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <script src="https://kit.fontawesome.com/e3437c8f04.js" crossorigin="anonymous"></script>
+    <title>Spotify Landing Page Redsign</title>
+    
 </head>
 <body>
     
     <div class="overlay"></div>
     
+    
     <nav class="sideNav">
+        
+        <i class="fab fa-spotify"></i>
         <br>
         <br>
-        <i class="fab fa-spotify"></i><br><br>
+        <br>
 
-        <h4>Browse Music</h4>
+        <h4>Browse</h4>
 
         <ul>
-            <li><a href="explore.html">Explore</a></li>
-            <li><a href="genre1.html">Genre</a></li>
-            <li><a href="radio.html">Radio</a><br></li>
+            <li><i class="las la-home"></i><a href="index.html">Home</a></li>
+            <li><i class="las la-binoculars"></i><a href="genres.html">Genres</a></li>
+            <li><i class="las la-microphone"></i><a href="radio.html">Radio</a><br></li>
         </ul>
+        <br>
 
         <h4>My Library</h4>
 
         <ul>
-            <li><a href="artists.html">Artists</a></li>
-            <li><a href="songs.html">Songs</a></li>
-            <li><a href="genres.html">Genres</a></li>
-            <li><a href="favorites.html">Favorites</a></li>
+            <li><i class="las la-microphone-alt"></i><a href="artists.html">Artists</a></li>
+            <li><i class="las la-music"></i><a href="songs.html">Songs</a></li>
+            <li><i class="las la-heart"></i><a href="favorites.html">Favorites</a></li>
         </ul>
+        <br>
 
         <h4>Playlists</h4> <!--plus button-->
 
@@ -40,11 +47,13 @@
     <!--Audio Playback-->
 
     <nav class="audioBar">
-        <i class="fas fa-random"></i>
-        <i class="fas fa-step-backward"></i>
-        <i class="fas fa-play-circle"></i>
-        <i class="fas fa-step-forward"></i>
-        <i class="fas fa-volume-down"></i>
+        <ul>
+            <li><i class="las la-random" aria-hidden="true"></i></li>
+            <li><i class="las la-step-backward" aria-hidden="true"></i></li>
+            <li><i class="las la-play-circle" aria-hidden="true"></i></li>
+            <li><i class="las la-step-forward" aria-hidden="true"></i></li>
+            <li><i class="las la-volume-down" aria-hidden="true"></i></li>
+        </ul>
     </nav>
     
 </body>

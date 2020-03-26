@@ -1,11 +1,10 @@
 @import 'config';
 
 body {
-    font-family: 'Open Sans', serif;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
 }
-
-
 
 .sideNav {
     height: 100%;
@@ -17,13 +16,54 @@ body {
     position: fixed;
     overflow: hidden;
     color: lightgrey;
-    text-align: center;
+    vertical-align: middle;
 
     i {
-        font-size: 48px;
         color: $color2;
     }
+
+    h4 {
+        text-align: center;
+    }
+
 }
+
+.fa-spotify {
+    font-size: 48px;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+
+.la-home {
+    padding-right: 20px;
+    font-size: 32px;
+}
+
+.la-binoculars {
+    padding-right: 20px;
+    font-size: 28px;
+}
+
+.la-microphone {
+    padding-right: 20px;
+    font-size: 28px;
+}
+
+.la-microphone-alt {
+    padding-right: 20px;
+    font-size: 28px;
+}
+
+.la-music {
+    padding-right: 20px;
+    font-size: 28px;
+}
+
+.la-heart {
+    padding-right: 20px;
+    font-size: 28px;
+}
+
 
 ul {
     list-style: none;
@@ -44,12 +84,22 @@ ul {
     height: 80px;
     background-color: $color2;
     bottom: 0;
+    left: 0;
     position: fixed;
     overflow: hidden;
     z-index: 2;
-
+    
     i {
+        position: relative;
         font-size: 36px;
+        color: black;
     }
 
 }
+
+
+
+
+
+
+
